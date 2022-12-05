@@ -4,20 +4,149 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Eleições</title>
+    <title>Monitora Eleitor</title>
     <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" media="screen and (max-width: 768px)" href="assets/css/mobile.css">
 </head>
 <body>
-    <header class="header-container">
-        <img src="assets/images/logo-eleicoes.jpg" alt="Logo Eleições">
-        
-        <nav class="navigation">
-            <ul>
-                <li class="nav-item"><a href="#">Home</a></li>
-                <li class="nav-item"><a href="#">Sobre</a></li>
-                <li class="nav-item"><a href="#">Contato</a></li>
+    <!-- Início da barra de navegação -->
+    <nav id="navbar">
+        <div id="navbar-container">
+            <h1 class="logo">Monitora Eleitor</h1>
+            <ul id="navbar-items">
+                <li><a href="#">Início</a></li>
+                <li><a href="#notices">Noticias</a></li>
+                <li><a href="#clients">Candidatos</a></li>
             </ul>
-        </nav>
+        </div>
+    </nav>  <!-- Fim da barra de navegação -->
+
+    <header id="showcase">
+        <div id="showcase-container">
+            <h2>Eleições 2022</h2>
+            <p>
+                Fique por dentro das principais notíticas sobre as eleições e seus candidatos
+            </p>
+            <a href="#notices" class="btn">Saiba Mais</a>
+        </div>
     </header>
+
+    <section id="notices">
+        <div class="headline">Visão Geral</div>
+        <h2>Situação eleitoral para 2022 em SC</h2>
+        <p class="box-notice">
+            A Monitora Pesquisas divulgou nesta quinta-feira o resultados de
+            sua consulta de opinião pública realizado em Santa Catarina sobre
+            a situação eleitoral. A pesquisa estimulada, quando são
+            apresentadas opções, incluiu o Executivo Federal, Estadual e
+            Legislativo Federal. Para o cargo de presidente, o atual mandatário
+            Jair Bolsonaro (sem partido) é o favorito com 52%. “Se as eleiçõespara Presidente do Brasil fossem hoje e os candidatos fossem
+            esses, em quem o(a) Sr(a) votaria?”, foi a pergunta feita.
+        </p>
+        <p class="box-notice">
+            O petista Lula aparece em segundo, com 24,2%, seguido pelo
+            representantante do PDT Ciro Gomes (3,6%). Luiz Mandetta, do
+            Democratas, tem 2,8%. O governados do Rio Grande do Sul,
+            Eduardo Leite, é o último colocado, com 2%. Brancos e nulos
+            somam 10,8% e outros 4,6% não souberam responder. Em um
+            recorte de gênero, Bolsonaro lidera tanto entre homens (60,2%)
+            quanto entre mulheres (44,5%)
+        </p>
+        <p class="box-notice">
+            Na pesquisa para o Executivo Estadual, o atual mandatário Carlos
+            Moisés (PSL) aparece em primeiro lugar, com 24,2%. Ele faria um
+            eventual segundo é Jorginho Mello (PL), que aparece com 16,1%
+            das intenções. No entanto, 21,3% dos entrevistados afirmaram que
+            votariam nulo ou branco e 12,9% não responderam ou não
+            sabem. Entre outros possível candidatos, Décio Lima do PT tem
+            9,6% e Gelson Merisio (PSDB) aparece com 7,9%. Já Antídio
+            Lunelli (MDB) soma 4,4%, enquanto Tramontin, do Novo, tem 3,6%.
+        </p>
+    </section>
+
+    <section id="clients">
+        <div class="headline">Principais Candidatos</div>
+        <div id="clients-container">
+            <img src="assets/images/Candidato_Bolsonaro.png" class="client" alt="">
+            <img src="assets/images/Candidato_Lula.png" class="client" alt="">
+            <img src="assets/images/Candidato_Ciro.png" class="client" alt="">
+            <img src="assets/images/Candidata_Simone.png" class="client" alt="">
+        </div>
+    </section>
+
+    <section id="features">
+        <div class="headline">Acontecimentos Recentes</div>
+        <div id="features-container">
+            <div class="feature">
+                <i class="fa-solid fa-hand-holding-dollar fa-3x"></i>
+                <span class="feature-title">Com Bolsonaro, o Brasil bate recordes de milionários e famintos.</span>
+                <p>
+                    <a href="https://www.cartacapital.com.br/politica/com-bolsonaro-o-brasil-bate-recordes-de-milionarios-e-famintos/
+                    ">Veja mais</a>
+                </p>
+            </div>
+            <div class="feature">
+                <i class="fa-solid fa-building-shield fa-3x"></i>
+                
+                <span class="feature-title">Lula busca acomodar base em meio à pressão de partidos por ministérios</span>
+                <p>
+                    <a href="https://www1.folha.uol.com.br/poder/2022/12/lula-busca-acomodar-base-em-meio-a-pressao-de-partidos-por-ministerios.shtml
+                    ">Veja mais</a>
+                </p>
+            </div>
+            <div class="feature">
+                <i class="fa-solid fa-triangle-exclamation fa-3x"></i>
+                <span class="feature-title">Ciro, presidencíavel pela 4ª vez, tem longo histórico de cargos, partidos e polêmicas</span>
+                <p>
+                    <a href="https://www1.folha.uol.com.br/poder/2022/09/ciro-presidenciavel-pela-4a-vez-tem-longo-historico-de-cargos-partidos-e-polemicas.shtml ">Veja mais</a>
+                </p>
+            </div>
+        </div>
+    </section>
+
+    
+
+    <section id="testimonials">
+        <div class="headline">Quem somos?</div>
+        <div id="testimonials-container">
+            <div class="testimonial">
+                <p>
+                    Há 15 anos atuando no mercado brasileiro, o Instituto
+                    Monitora Pesquisas é referência em Pesquisa Política,
+                    Pesquisa de Opinião e Pesquisa de Mercado.
+
+                </p>
+            </div>
+            <div class="testimonial">
+                <p>
+                    As altas margens de acerto e a confiabilidade em seu
+                    trabalho, concretizaram a credibilidade e respeito dos
+                    principais formadores de opinião do país, assim como a
+                    qualidade e idoneidade comprovadas pelo histórico dos
+                    trabalhos realizados, conquistam a satisfação de clientes
+                    que buscam segurança nos resultados.
+
+                </p>
+            </div>
+        </div>
+    </section>
+
+    
+
+    <footer id="footer">
+        <p>
+            &copy; Todos os direitos reservados - 2022
+        </p>
+        <p>
+            Feito por: .a.s.g - web developer
+        </p>
+    </footer>
+
+    <!-- Font Awesome -->
+    <script src="https://kit.fontawesome.com/db343a5ef8.js" crossorigin="anonymous"></script>
+    <!-- Jquery CDN -->
+    <script src="https://code.jquery.com/jquery-3.6.1.min.js" integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ=" crossorigin="anonymous"></script>
+    <!-- Script Js -->
+    <script src="assets/js/main.js"></script>
 </body>
 </html>
