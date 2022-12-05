@@ -5,6 +5,7 @@
     --secondary: #393E46;
     --optional: #FFD369;
     --textColor: #eee;
+    --bgPrimary: #111;
     --btnColor: #4E9F3D;
     --btnHover: #1E5128;
 }
@@ -84,7 +85,7 @@ a {
     display: flex;
     justify-content: center;
     align-items: center;
-    color: #eee;
+    color: var(--textColor);
     background: url(../images/Brasil_bg.jpg) no-repeat center center/cover;
     background-color: rgba( 0, 0, 0, 0.4);
     background-blend-mode: color;
@@ -112,7 +113,7 @@ a {
     width: 100%;
     padding: 50px;
     background: #eee;
-    color: #111;
+    color: var(--bgPrimary);
 }
 
 #clients-container {
@@ -129,8 +130,8 @@ a {
 #features {
     width: 100%;
     padding: 50px;
-    background: #111;
-    color: #eee;
+    background: var(--bgPrimary);
+    color: var(--textColor);
 }
 
 #features-container {
@@ -160,27 +161,7 @@ a {
     color: var(--optional);
 }
 
-#product {
-    width: 100%;
-    padding: 50px;
-}
 
-#product-container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-#items {
-    width: 650px;
-}
-
-#items .item {
-    display: flex;
-    padding: 10px;
-    margin: 15px;
-    font-size: 1.2rem;
-}
 
 .testimonial {
     display: flex;
@@ -195,7 +176,7 @@ a {
 #testimonials {
     width: 100%;
     background: #222;
-    color: #eee;
+    color: var(--textColor);
     padding: 50px;
 }
 
@@ -205,13 +186,6 @@ a {
     display: flex;
     align-items: center;
     flex-direction: column;
-}
-
-.testimonial .testimonial-image {
-    height: 200px;
-    width: auto;
-    margin: 15px;
-    border-radius: 50%;
 }
 
 #notices {
@@ -239,7 +213,7 @@ a {
 
 #footer {
     background: #222;
-    color: #eee;
+    color: var(--textColor);
     padding: 30px;
     text-align: center;
 }
