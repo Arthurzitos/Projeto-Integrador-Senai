@@ -188,6 +188,48 @@ a {
     flex-direction: column;
 }
 
+#contact {
+    background-color: var(--secondary);
+}
+
+#contact-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem 0;
+    margin-left: 24px;
+}
+
+.contacts {
+    display: flex;
+    flex-direction: column;
+    margin: 16px;
+}
+
+.contacts input {  
+    margin: 0.6rem 0;
+    padding: 0.8rem 1.2rem;
+    border-radius: 5px;
+    border: 1px solid var(--optional);
+}
+
+.submit-btn {
+    display: inline-block;
+    padding: 15px 60px;
+    margin: 15px 45%;
+    font-size: 1.1rem;
+    text-transform: uppercase;
+    background-color: var(--btnColor);
+    border-radius: 5px;
+    transition: background 500ms ease;
+}
+
+.submit-btn:hover{
+    cursor: pointer;
+    background: var(--btnHover)
+}
+
 #notices {
     display: flex;
     flex-direction: column;
